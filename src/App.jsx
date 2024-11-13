@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/Ecommerce">
+    <Router >
       <Header />
       <Routes>
         <Route path="/" element={<Inicio />} />
