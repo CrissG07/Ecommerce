@@ -1,4 +1,5 @@
 import '../styles/inicio.css';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 

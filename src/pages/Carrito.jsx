@@ -1,4 +1,5 @@
 import Cart from "../components/Cart";
+import { useEffect } from 'react';
 
 
 function Carrito() {
