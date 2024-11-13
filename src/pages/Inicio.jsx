@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 
 
 function Inicio() {
-  return (
+  useEffect(() => {
+    document.title = 'Ecommerce React';
+  }, []);
+  return (   
     <div className="inicio">
       <section className="hero">
         <h1>Bienvenido a la tienda de Benito</h1>
