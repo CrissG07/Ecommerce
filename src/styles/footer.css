@@ -1,0 +1,127 @@
+footer {
+  background-color: #2F4F4F; /* Gris oscuro */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 200px;
+}
+
+.footer-logo img {
+  height: 200px; /* Ajusta según el tamaño del logo */
+  position: relative;
+  left: 0%;
+  bottom: -20%;
+}
+
+.footer-links {
+  display: flex;
+  gap: 150px;
+}
+
+.link-group {
+  margin: 50px;
+}
+
+.link-group h3 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #1E90FF; 
+}
+
+.link-group ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-group ul li {
+  margin-bottom: 10px;
+}
+
+.link-group ul li a {
+  color: #FFFFFF; /* Blanco */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link-group ul li a:hover {
+  color: #87CEFA; /* Azul claro */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #1E90FF; /* Azul */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+  color: #87CEFA; /* Azul claro */
+}
+
+/* Estilos específicos para tabletas */
+@media (max-width: 768px) {
+  .footer-content {
+    gap: 100px; /* Reducir el espacio entre los elementos */
+  }
+
+  .footer-logo img {
+    height: 150px; /* Ajustar el tamaño del logo */
+  }
+
+  .footer-links {
+    gap: 50px; /* Ajustar el espacio entre los enlaces */
+  }
+
+  .link-group {
+    margin: 30px; /* Reducir el margen */
+  }
+}
+
+/* Estilos específicos para móviles */
+@media (max-width: 480px) {
+  .footer-content {
+    flex-direction: column; /* Cambiar la dirección de flex a columna */
+    gap: 50px; /* Ajustar el espacio entre los elementos */
+  }
+
+  .footer-logo img {
+    height: 100px; /* Reducir el tamaño del logo */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Apilar los enlaces verticalmente */
+    align-items: center; /* Centrar los enlaces */
+    gap: 20px; /* Reducir el espacio entre los enlaces */
+  }
+
+  .link-group {
+    margin: 20px; /* Reducir el margen */
+  }
+
+  .link-group h3 {
+    font-size: 1rem; /* Ajustar el tamaño de la fuente */
+  }
+
+  .footer-bottom p {
+    font-size: 12px; /* Reducir el tamaño de la fuente */
+  }
+}
+

@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Sección Hero */
+  .hero {
+    background-color: #1E90FF; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('/path/to/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin: 10px 0 20px;
+  }
+  
+  .cta-button {
+    background-color: #FFD700; /* Amarillo dorado */
+    color: black;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #FFC107; /* Amarillo más claro */
+  }
+  
+  /* Sección de características */
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 20px;
+  }
+  
+  .feature {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 280px; /* Ajusta según el tamaño deseado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #1E90FF; /* Azul */
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
