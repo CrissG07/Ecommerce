@@ -11,10 +11,10 @@ import './App.css';
 
 function App() {
   return (
-    <Router >
+    <Router basename="/Ecommerce/">
       <Header />
       <Routes>
-        <Route path="/Ecommerce" element={<Inicio />} />
+        <Route path="/" element={<Inicio />} />
         <Route path="/products" element={<Productos />} />
         <Route path="/products/:id" element={<DetallesProducto />} />
         <Route path="/cart" element={<Carrito />} />
